@@ -1,0 +1,16 @@
+To compile :
+
+javac .\Client.java
+javac .\Server.java
+
+To run the servers:
+
+java .\Server.java 3000
+java .\Server.java 3001
+java .\Server.java 3002
+
+To run Client:
+
+java .\Client.java 3000 3001 3002
+
+Note: change the ip address of servers in client.java file
